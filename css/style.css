@@ -1,0 +1,87 @@
+.container {
+    display:flex;
+    width: 1000px;
+    margin: auto;
+}
+
+.container_first {
+    min-width: 330px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(153, 137, 168);
+    border-radius: 15px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius:150px;
+    border-top: 200px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+h1 {
+    text-shadow: 3px 3px rgb(179, 175, 175);
+    border: 3px groove rgb(170, 147, 170);
+    border-radius: 5px;
+    width:185px;
+    background-color:rgb(170, 147, 170) ;
+    margin:auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: rgb(13, 0, 26);
+}
+
+h2 {
+    width: fit-content;
+    margin-top: 10px;
+    margin: auto;
+    color: rgb(35, 20, 49);
+}
+h3 {
+    text-decoration: underline bisque;
+    margin-bottom: 0px;
+    color: bisque;
+    margin-left: 15px;
+}
+.first {
+    margin-top: 0px;
+    color: rgba(255, 228, 196, 0.767);
+    margin-left: 15px;
+}
+    
+.container_second {
+    background-color: rgb(210, 179, 240);
+    border-radius: 15px;
+}
+.second {
+    list-style-type: circle;
+    margin-left: 15px;
+}
+h4 {
+    text-decoration:underline;
+    text-shadow: 1px 1px grey;
+    margin-left: 15px;
+    color: rgb(71, 55, 50);
+}
+
+.third {
+    margin-top: 5px;
+    margin-left: 15px;
+    list-style-type: circle;
+    color: rgb(109, 85, 77);
+}
+li {
+    margin-left: 15px;
+    color: rgb(109, 85, 77);
+}
+.fourth {
+    margin-left: 15px;
+    color: rgb(109, 85, 77);
+}
+.contacts {
+    text-align: center;
+    word-spacing: 200px;
+    border: 3px solid rgb(100, 58, 58);
+    background-color: rgb(241, 178, 178);
+}
